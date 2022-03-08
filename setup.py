@@ -8,7 +8,7 @@ setup(name='GCL',
       author_email='hao.chen@inria.fr',
       url='https://github.com/chenhao2345/GCL',
       install_requires=[
-          'numpy', 'torch==1.2.0', 'torchvision==0.4.0',
+          'numpy', 'torch==1.2.0', 'torchvision==0.3.0',
           'six', 'h5py', 'Pillow', 'scipy', 'tensorboard', 'opencv-python',
           'scikit-learn', 'metric-learn', 'faiss-gpu==1.6.3'],
       packages=find_packages(),

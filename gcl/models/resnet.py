@@ -224,7 +224,6 @@ class ft_net(nn.Module):
     def __init__(self, **kwargs):
         super(ft_net, self).__init__()
         resnet = torchvision.models.resnet50(pretrained=True)
-
         self.conv1 = resnet.conv1
         self.bn1 = resnet.bn1
         self.relu = resnet.relu

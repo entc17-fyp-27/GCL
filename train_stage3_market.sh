@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=0 python examples/main.py \
+python examples/main.py \
 --name market_init_JVTC_unsupervised \
 --resume \
 --stage 3 \

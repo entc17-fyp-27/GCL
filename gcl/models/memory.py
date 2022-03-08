@@ -37,6 +37,8 @@ class Memory(nn.Module):
         negatives = []
         negatives_wogan = []
         for i in range(batchSize):
+            print("batchSize",batchSize)
+            print(mat.shape)
             pos_labels = (labels == batch_labels[i])
             pos = mat[i, pos_labels]
             perm = torch.randperm(pos.size(0))

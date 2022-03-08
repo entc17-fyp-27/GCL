@@ -4,7 +4,7 @@ beta2: 0.999                     # Adam hyperparameter
 
 gen_iters: 1                     # updating dis 5 times, updating gen 1 time
 image_display_iter: 200         # How often do you want to display output images during training
-snapshot_save_iter: 5000       # How often to save the checkpoint
+snapshot_save_iter: 1000       # How often to save the checkpoint
 step_size: 10                # when to decay the learning rate
 log_iter: 100                     # How often do you want to log the training stats
 
